@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="24" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T23:20:08 BST" name="SportyShoes Automation Test Run" finished-at="2024-07-26T23:23:26 BST" duration-ms="198335">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T23:20:08 BST" name="SignUp Page Test" finished-at="2024-07-26T23:21:31 BST" duration-ms="83707">
+      <class name="com.sportyshoes.signup.SignUpTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:08 BST" name="setup" finished-at="2024-07-26T23:20:14 BST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddressIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:14 BST" name="verifyAddressIsBlank" description="Verify signup page with address is blank" finished-at="2024-07-26T23:20:16 BST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:16 BST" name="destroy" finished-at="2024-07-26T23:20:16 BST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:16 BST" name="setup" finished-at="2024-07-26T23:20:22 BST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAgeIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:22 BST" name="verifyAgeIsBlank" description="Verify signup page with age is blank" finished-at="2024-07-26T23:20:23 BST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgeIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:23 BST" name="destroy" finished-at="2024-07-26T23:20:23 BST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:23 BST" name="setup" finished-at="2024-07-26T23:20:29 BST" duration-ms="5972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAlreadyMemeberlink()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:29 BST" name="verifyAlreadyMemeberlink" description="verify already member login link" finished-at="2024-07-26T23:20:31 BST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlreadyMemeberlink -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:31 BST" name="destroy" finished-at="2024-07-26T23:20:31 BST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:31 BST" name="setup" finished-at="2024-07-26T23:20:37 BST" duration-ms="5981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyConfirmPasswordIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:37 BST" name="verifyConfirmPasswordIsBlank" description="signup page with Confirm password is blank" finished-at="2024-07-26T23:20:38 BST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmPasswordIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:38 BST" name="destroy" finished-at="2024-07-26T23:20:38 BST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:38 BST" name="setup" finished-at="2024-07-26T23:20:44 BST" duration-ms="6020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailIsAlreadyTaken()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:44 BST" name="verifyEmailIsAlreadyTaken" description="signup page with email id is already taken" finished-at="2024-07-26T23:20:46 BST" duration-ms="1486" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.sportyshoes.signup.SignUpTests.validateMessage(SignUpTests.java:146)
+at com.sportyshoes.signup.SignUpTests.verifyEmailIsAlreadyTaken(SignUpTests.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailIsAlreadyTaken -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:46 BST" name="destroy" finished-at="2024-07-26T23:20:46 BST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:46 BST" name="setup" finished-at="2024-07-26T23:20:52 BST" duration-ms="5990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:52 BST" name="verifyEmailIsBlank" description="signup page with Email is blank" finished-at="2024-07-26T23:20:54 BST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:54 BST" name="destroy" finished-at="2024-07-26T23:20:54 BST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:20:54 BST" name="setup" finished-at="2024-07-26T23:21:00 BST" duration-ms="5948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFirstNameIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:00 BST" name="verifyFirstNameIsBlank" description="signup page with first name is blank" finished-at="2024-07-26T23:21:01 BST" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstNameIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:01 BST" name="destroy" finished-at="2024-07-26T23:21:01 BST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:01 BST" name="setup" finished-at="2024-07-26T23:21:07 BST" duration-ms="6027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLastNameIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:07 BST" name="verifyLastNameIsBlank" description="signup page with last name is blank" finished-at="2024-07-26T23:21:09 BST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastNameIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:09 BST" name="destroy" finished-at="2024-07-26T23:21:09 BST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:09 BST" name="setup" finished-at="2024-07-26T23:21:15 BST" duration-ms="5966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPasswordIsBlank()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:15 BST" name="verifyPasswordIsBlank" description="signup page with password is blank" finished-at="2024-07-26T23:21:16 BST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordIsBlank -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:16 BST" name="destroy" finished-at="2024-07-26T23:21:16 BST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:16 BST" name="setup" finished-at="2024-07-26T23:21:22 BST" duration-ms="5993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignUpPageWithEmptyUserDetails()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:22 BST" name="verifySignUpPageWithEmptyUserDetails" description="Verify signup page with Empty User Details" finished-at="2024-07-26T23:21:24 BST" duration-ms="1186" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.sportyshoes.signup.SignUpTests.validateMessage(SignUpTests.java:146)
+at com.sportyshoes.signup.SignUpTests.verifySignUpPageWithEmptyUserDetails(SignUpTests.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageWithEmptyUserDetails -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:24 BST" name="destroy" finished-at="2024-07-26T23:21:24 BST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:24 BST" name="setup" finished-at="2024-07-26T23:21:30 BST" duration-ms="5955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignUpPageWithValidUserDetails()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:30 BST" name="verifySignUpPageWithValidUserDetails" description="Verify signup page with valid member details" finished-at="2024-07-26T23:21:31 BST" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageWithValidUserDetails -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.signup.SignUpTests@4f49f6af]" started-at="2024-07-26T23:21:31 BST" name="destroy" finished-at="2024-07-26T23:21:31 BST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.sportyshoes.signup.SignUpTests -->
+    </test> <!-- SignUp Page Test -->
+    <test started-at="2024-07-26T23:21:31 BST" name="Login Page Test" finished-at="2024-07-26T23:22:47 BST" duration-ms="75499">
+      <class name="com.sportyshoes.login.EditProfileTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:00 BST" name="setup" finished-at="2024-07-26T23:22:06 BST" duration-ms="5971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMemberAbleToEditProfile()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:06 BST" name="verifyMemberAbleToEditProfile" description="Verify member able to update edit profile" finished-at="2024-07-26T23:22:08 BST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberAbleToEditProfile -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:08 BST" name="destroy" finished-at="2024-07-26T23:22:08 BST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:08 BST" name="setup" finished-at="2024-07-26T23:22:14 BST" duration-ms="6087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMemberAbleToViewEditProfilePage()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:14 BST" name="verifyMemberAbleToViewEditProfilePage" description="Verify member should able to view edit profile page" finished-at="2024-07-26T23:22:15 BST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberAbleToViewEditProfilePage -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:15 BST" name="destroy" finished-at="2024-07-26T23:22:16 BST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:16 BST" name="setup" finished-at="2024-07-26T23:22:22 BST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMemberNotAllowToUpdatePasswordWithInvalidConfirmPassword()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:22 BST" name="verifyMemberNotAllowToUpdatePasswordWithInvalidConfirmPassword" description="Verify member should not allow to update password with invalid confirm password" finished-at="2024-07-26T23:22:23 BST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberNotAllowToUpdatePasswordWithInvalidConfirmPassword -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:23 BST" name="destroy" finished-at="2024-07-26T23:22:23 BST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:23 BST" name="setup" finished-at="2024-07-26T23:22:29 BST" duration-ms="6015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMemberNotAllowToUpdatePasswordWithInvalidPassword()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:29 BST" name="verifyMemberNotAllowToUpdatePasswordWithInvalidPassword" description="Verify member should not allow to update password with invalid password" finished-at="2024-07-26T23:22:31 BST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberNotAllowToUpdatePasswordWithInvalidPassword -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:31 BST" name="destroy" finished-at="2024-07-26T23:22:31 BST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:31 BST" name="setup" finished-at="2024-07-26T23:22:37 BST" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNotAllowtoUpdateEmptyFname()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:37 BST" name="verifyNotAllowtoUpdateEmptyFname" description="Verify member should not allow to update empty first name filed" finished-at="2024-07-26T23:22:39 BST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotAllowtoUpdateEmptyFname -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:39 BST" name="destroy" finished-at="2024-07-26T23:22:39 BST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:39 BST" name="setup" finished-at="2024-07-26T23:22:45 BST" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNotAllowtoUpdateEmptyLname()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:45 BST" name="verifyNotAllowtoUpdateEmptyLname" description="Verify member should not allow to update empty first name filed" finished-at="2024-07-26T23:22:47 BST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotAllowtoUpdateEmptyLname -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.EditProfileTests@6dd7b5a3]" started-at="2024-07-26T23:22:47 BST" name="destroy" finished-at="2024-07-26T23:22:47 BST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.sportyshoes.login.EditProfileTests -->
+      <class name="com.sportyshoes.login.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:31 BST" name="setup" finished-at="2024-07-26T23:21:37 BST" duration-ms="6015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageWithInvalidEmailId()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:37 BST" name="verifyLoginPageWithInvalidEmailId" description="Verify login page with Invalid email id" finished-at="2024-07-26T23:21:38 BST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithInvalidEmailId -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:38 BST" name="destroy" finished-at="2024-07-26T23:21:39 BST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:39 BST" name="setup" finished-at="2024-07-26T23:21:45 BST" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageWithInvalidEmailIdandInvalidPassword()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:45 BST" name="verifyLoginPageWithInvalidEmailIdandInvalidPassword" description="Verify login page with Invalid emaild id and invalid password" finished-at="2024-07-26T23:21:46 BST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithInvalidEmailIdandInvalidPassword -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:46 BST" name="destroy" finished-at="2024-07-26T23:21:46 BST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:46 BST" name="setup" finished-at="2024-07-26T23:21:52 BST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageWithValidUserDetails()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:52 BST" name="verifyLoginPageWithValidUserDetails" description="Verify login page with valid user details" finished-at="2024-07-26T23:21:53 BST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithValidUserDetails -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:53 BST" name="destroy" finished-at="2024-07-26T23:21:53 BST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:53 BST" name="setup" finished-at="2024-07-26T23:21:59 BST" duration-ms="5985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageWithvalidEmailIdandInvalidPassword()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:21:59 BST" name="verifyLoginPageWithvalidEmailIdandInvalidPassword" description="Verify login page with valid emaild id and invalid password" finished-at="2024-07-26T23:22:00 BST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithvalidEmailIdandInvalidPassword -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.login.LoginTests@205d38da]" started-at="2024-07-26T23:22:00 BST" name="destroy" finished-at="2024-07-26T23:22:00 BST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.sportyshoes.login.LoginTests -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2024-07-26T23:22:47 BST" name="AddToCart Page Test" finished-at="2024-07-26T23:23:26 BST" duration-ms="39104">
+      <class name="com.sportyshoes.addtocart.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:22:47 BST" name="setup" finished-at="2024-07-26T23:22:53 BST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateOneItemAddToCartAndCheckout()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:22:53 BST" name="validateOneItemAddToCartAndCheckout" description="Validate One item is added to the cart and checkout is working" finished-at="2024-07-26T23:22:55 BST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOneItemAddToCartAndCheckout -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:22:55 BST" name="destroy" finished-at="2024-07-26T23:22:55 BST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:22:55 BST" name="setup" finished-at="2024-07-26T23:23:01 BST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTwoItemAddToCartAndCheckout()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:01 BST" name="validateTwoItemAddToCartAndCheckout" description="Validate Two item is added to the cart and checkout is working" finished-at="2024-07-26T23:23:03 BST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTwoItemAddToCartAndCheckout -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:03 BST" name="destroy" finished-at="2024-07-26T23:23:03 BST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:03 BST" name="setup" finished-at="2024-07-26T23:23:09 BST" duration-ms="5934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserAbleToViewtProduct()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:09 BST" name="verifyUserAbleToViewtProduct" description="Verify user is able to view product list" finished-at="2024-07-26T23:23:11 BST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToViewtProduct -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:11 BST" name="destroy" finished-at="2024-07-26T23:23:11 BST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:11 BST" name="setup" finished-at="2024-07-26T23:23:17 BST" duration-ms="5988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserToSelectandAddToCartProduct()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:17 BST" name="verifyUserToSelectandAddToCartProduct" description="Verify user is able to select product and add into cart" finished-at="2024-07-26T23:23:18 BST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserToSelectandAddToCartProduct -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:18 BST" name="destroy" finished-at="2024-07-26T23:23:18 BST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:18 BST" name="setup" finished-at="2024-07-26T23:23:24 BST" duration-ms="5939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserToSelectandRemoveProduct()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:24 BST" name="verifyUserToSelectandRemoveProduct" description="Verify user is able to select product and also allow to remove the record form cart" finished-at="2024-07-26T23:23:26 BST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserToSelectandRemoveProduct -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:com.sportyshoes.addtocart.AddToCartTest@44be0077]" started-at="2024-07-26T23:23:26 BST" name="destroy" finished-at="2024-07-26T23:23:26 BST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.sportyshoes.addtocart.AddToCartTest -->
+    </test> <!-- AddToCart Page Test -->
+  </suite> <!-- SportyShoes Automation Test Run -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SportyShoes Automation Test Run]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUp Page Test(failed)">
+    <classes>
+      <class name="com.sportyshoes.signup.SignUpTests">
+        <methods>
+          <include name="destroy"/>
+          <include name="setup"/>
+          <include name="verifyEmailIsAlreadyTaken"/>
+          <include name="verifySignUpPageWithEmptyUserDetails"/>
+        </methods>
+      </class> <!-- com.sportyshoes.signup.SignUpTests -->
+    </classes>
+  </test> <!-- SignUp Page Test(failed) -->
+</suite> <!-- Failed suite [SportyShoes Automation Test Run] -->

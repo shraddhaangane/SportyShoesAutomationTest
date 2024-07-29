@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SportyShoes Automation Test Run">
+<test name="SignUp Page Test">
+    <classes>
+      <class name="com.sportyshoes.signup.SignUpTests"/>
+    </classes>
+  </test>
+  <test name="Login Page Test">
+    <classes>
+      <class name="com.sportyshoes.login.LoginTests"/>
+      <class name="com.sportyshoes.login.EditProfileTests"/>
+    </classes>
+  </test>
+  <test name="AddToCart Page Test">
+    <classes>
+      <class name="com.sportyshoes.addtocart.AddToCartTest"/>
+    </classes>
+  </test>
+</suite>
